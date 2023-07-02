@@ -1,0 +1,40 @@
+.div__main_box {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15vh;
+    div {
+        margin: 0 20px 0 20px;
+    }
+    .div__left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        color: rgb(230, 230, 230);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 65vh;
+        .span__name {
+            font-size: 110px;
+        }
+        .span__title {
+            font-size: 70px;
+        }
+    }
+    .div__middle {
+        transition: 4s ease-in-out;
+    }
+    .div__right {
+        display: flex;
+        flex-direction: column;
+        color: rgb(230, 230, 230);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        width: 65vh;
+        .icons {
+            font-size: 30px;
+            margin-left: 0px;
+        }
+    }
+}
